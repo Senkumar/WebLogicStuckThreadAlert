@@ -5,7 +5,7 @@ A tool that helps to assess and alert WebLogic status for following conditions, 
 2. Chance of getting into Stuck Thread situations - using Thread execution ratio property.
 3. Available memory becomes less than the configured percentage in property. 
 
-Following dependencies need to be resolved for successful execution:
+Following dependencies need to be resolved for successful compilation and execution:
 1. This jar requires WebLogic Full client for establishing JMX connection with Admin server.
 Please refer this link for steps to prepare WebLogic Full Client and place in the 'lib' folder.
 http://middlewaremagic.com/weblogic/?p=558
