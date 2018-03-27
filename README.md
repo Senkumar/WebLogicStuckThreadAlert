@@ -12,10 +12,13 @@ http://middlewaremagic.com/weblogic/?p=558
 
 2.Supplying the property file location during runtime.
 
-E.g. java -jar -Dcom.serverstate.monitorconfig={path/to}/system.properties {path/to}/ServerState.jar &
+E.g. 
+
+    java -jar -Dcom.serverstate.monitorconfig={path/to}/system.properties {path/to}/ServerState.jar &
 
 
 Using Crontab setup, it can easily be scheduled for periodical alerts.
 
 E.g. For executing for every 20 minutes.
-00,20,40  * * * *  java -jar -Dcom.serverstate.monitorconfig={path/to}/system.properties {path/to}/ServerState.jar &
+    
+    00,20,40  * * * *  java -jar -Dcom.serverstate.monitorconfig={path/to}/system.properties {path/to}/ServerState.jar &
